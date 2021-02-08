@@ -35,7 +35,9 @@ class App extends React.Component {
     this.setState({
       correctAnswers: this.state.correctAnswers + 1,
     })
+    console.log("correct Answers", this.state.correctAnswers);
     if (this.state.correctAnswers === this.state.length){
+      console.log("check");
       this.setState({
         winner: true,
       })
