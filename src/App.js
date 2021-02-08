@@ -15,6 +15,7 @@ class App extends React.Component {
       word: words[Math.floor(Math.random() * words.length)],
       chances: 8,
       wrongAnswers: 0,
+      length: this.state.word.length,
     }
     this.incrementWrongAnswers = this.incrementWrongAnswers.bind(this)
   }
@@ -25,6 +26,8 @@ class App extends React.Component {
     })
     console.log(this.state.wrongAnswers);
   }
+
+
 
   render(){
   return (

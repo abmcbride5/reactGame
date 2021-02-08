@@ -28,7 +28,7 @@ class Letter extends React.Component{
         }
         if (!this.state.correct){
             this.props.burnFuse()
-            console.log("burn Fuse!")
+           
         }
     }
     render(){

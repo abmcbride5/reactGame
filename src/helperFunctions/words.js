@@ -1,3 +1,3 @@
-const words = ["wonder", "apple", "balloon", "sweater", "money", "hammer", "sissors"];
+const words = ["wonder", "apple", "balloon", "sweater", "money", "hammer", "scissors"];
 
 export default words;
