@@ -49,7 +49,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <h1>Put Out The Fuse</h1>
-    {this.state.wrongAnswers < this.state.chances && <Bomb wrongAnswers={this.state.wrongAnswers} />}
+    {!this.state.winner && this.state.wrongAnswers < this.state.chances && <Bomb wrongAnswers={this.state.wrongAnswers} />}
     {this.state.wrongAnswers === this.state.chances && <GameOver/>}
     {this.state.winner && <Winner />}
     <Table word={this.state.word} checkWinner={this.incrementCorrectAnswers} burnFuse={this.incrementWrongAnswers} />
