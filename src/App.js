@@ -7,18 +7,18 @@ import Winner from './containers/winner';
 import words from './helperFunctions/words';
 
 
-
-
+const gameWord = words[Math.floor(Math.random() * words.length)]
+const length = gameWord.length;
 class App extends React.Component {
 
   constructor(props){
     super(props);
     this.state = {
-      word: words[Math.floor(Math.random() * words.length)],
+      word: gameWord,
       chances: 8,
       wrongAnswers: 0,
       correctAnswers: 0,
-      length: this.state.word.length,
+      length: length,
       winner: false
     };
     this.incrementWrongAnswers = this.incrementWrongAnswers.bind(this);
