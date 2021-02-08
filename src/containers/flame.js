@@ -22,8 +22,8 @@ class Flame extends React.Component{
                 </div>
                 <div className="white">
                 </div>
-                <div className="white2">
-                </div>
+                {/* <div className="white2">
+                </div> */}
             </div>
 
         )
