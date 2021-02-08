@@ -10,7 +10,7 @@
     border-bottom: 0.7em solid red;
     border-left: 0.3em solid transparent;
     /* Controlls the size of the stars. */
-    font-size: 95px;
+    font-size: 47.5px;
   }
   .red:before, .red:after {
     content: "";
@@ -42,7 +42,7 @@
     border-right: 0.3em solid transparent;
     border-bottom: 0.7em solid red;
     border-left: 0.3em solid transparent;
-    font-size: 95px;
+    font-size: 47.5px;
     transform: rotate(-35deg);
 
   }
@@ -78,7 +78,7 @@
     border-bottom: 0.7em solid orange;
     border-left: 0.3em solid transparent;
     /* Controlls the size of the stars. */
-    font-size: 70px;
+    font-size: 35px;
   }
   .orange:before, .orange:after {
     content: "";
@@ -111,7 +111,7 @@
     border-right: 0.3em solid transparent;
     border-bottom: 0.7em solid orange;
     border-left: 0.3em solid transparent;
-    font-size: 70px;
+    font-size: 35px;
     transform: rotate(-35deg);
 
   }
@@ -146,7 +146,7 @@
     border-right: 0.3em solid transparent;
     border-bottom: 0.7em solid yellow;
     border-left: 0.3em solid transparent;
-    font-size: 48px;
+    font-size: 24px;
   }
   .yellow:before, .yellow:after {
     content: "";
@@ -179,7 +179,7 @@
     border-right: 0.3em solid transparent;
     border-bottom: 0.7em solid yellow;
     border-left: 0.3em solid transparent;
-    font-size: 48px;
+    font-size: 24px;
     transform: rotate(-35deg);
 
   }
@@ -214,7 +214,7 @@
     border-right: 0.3em solid transparent;
     border-bottom: 0.7em solid white;
     border-left: 0.3em solid transparent;
-    font-size: 27px;
+    font-size: 13.5px;
   }
   .white:before, .white:after {
     content: "";
@@ -246,7 +246,7 @@
     border-right: 0.3em solid transparent;
     border-bottom: 0.7em solid white;
     border-left: 0.3em solid transparent;
-    font-size: 27px;
+    font-size: 13.5px;
     transform: rotate(-35deg);
 
   }
