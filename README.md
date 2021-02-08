@@ -1,3 +1,12 @@
+## Put Out The Fuse
+The point of the game is to guess the correct word using the clue given. The player gets 8 chances to complete the word otherwise they lose and the game is over.
+
+Works best on a website browser. If viewing on phone it is best to hold the phone sideways.
+
+##  Technology
+This project was done entirely in React for the purpose of practice.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
