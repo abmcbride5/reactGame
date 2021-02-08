@@ -1,0 +1,10 @@
+.firstletter{
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 75px;
+    margin: 0;
+}

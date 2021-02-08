@@ -1,0 +1,310 @@
+.red {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid red;
+    border-left: 0.3em solid transparent;
+    /* Controlls the size of the stars. */
+    font-size: 47.5px;
+  }
+  .red:before, .red:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid red;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+  .red:after {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+  .red2 {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: -2.8em;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid red;
+    border-left: 0.3em solid transparent;
+    font-size: 47.5px;
+    transform: rotate(-35deg);
+
+  }
+  .red2:before, .red2:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid red;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-32deg);
+            transform: rotate(-32deg);
+  }
+  .red2:after {
+    -webkit-transform: rotate(34deg);
+            transform: rotate(34deg);
+  }
+  .orange {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: -6.1em;
+    top: -0.4em;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid orange;
+    border-left: 0.3em solid transparent;
+    /* Controlls the size of the stars. */
+    font-size: 35px;
+  }
+  .orange:before, .orange:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid orange;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+  .orange:after {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+  .orange2 {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: -8.9em;
+    top: -0.4em;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid orange;
+    border-left: 0.3em solid transparent;
+    font-size: 35px;
+    transform: rotate(-35deg);
+
+  }
+  .orange2:before, .orange2:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid orange;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-32deg);
+            transform: rotate(-32deg);
+  }
+  .orange2:after {
+    -webkit-transform: rotate(34deg);
+            transform: rotate(34deg);
+  }
+  .yellow {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: -15.35em;
+    top: -1.03em;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid yellow;
+    border-left: 0.3em solid transparent;
+    font-size: 24px;
+  }
+  .yellow:before, .yellow:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid yellow;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+  .yellow:after {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+  .yellow2 {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: -18.17em;
+    top: -1.1em;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid yellow;
+    border-left: 0.3em solid transparent;
+    font-size: 24px;
+    transform: rotate(-35deg);
+
+  }
+  .yellow2:before, .yellow2:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid yellow;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-32deg);
+            transform: rotate(-32deg);
+  }
+  .yellow2:after {
+    -webkit-transform: rotate(34deg);
+            transform: rotate(34deg);
+  }
+  .white {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: -34.9em;
+    top: -2.7em;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid white;
+    border-left: 0.3em solid transparent;
+    font-size: 13.5px;
+  }
+  .white:before, .white:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid white;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+  .white:after {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+  .white2 {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: -2.8em;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid white;
+    border-left: 0.3em solid transparent;
+    font-size: 13.5px;
+    transform: rotate(-35deg);
+
+  }
+  .white2:before, .white2:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid white;
+    border-left: 1em solid transparent;
+    -webkit-transform: rotate(-32deg);
+            transform: rotate(-32deg);
+  }
+  .white2:after {
+    -webkit-transform: rotate(34deg);
+            transform: rotate(34deg);
+  }
+  .flame0 {
+    position: relative;
+    top: 159px;
+    left: 1226px;
+}
+.flame1 {
+    position: relative;
+    top: 173px;
+    left: 1110px;
+}
+.flame2 {
+    position: relative;
+    top: 192px;
+    left: 1009px;
+}
+.flame3 {
+    position: relative;
+    top: 197px;
+    left: 898px;
+}
+.flame4 {
+    position: relative;
+    top: 200px;
+    left: 784px;
+}
+.flame5 {
+    position: relative;
+    top: 213px;
+    left: 673px;
+}
+.flame6 {
+    position: relative;
+    top: 227px;
+    left: 563px;
+}
+.flame7 {
+    position: relative;
+    top: 237px;
+    left: 460px;
+}
