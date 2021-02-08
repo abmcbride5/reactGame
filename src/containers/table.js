@@ -26,7 +26,7 @@ class Table extends React.Component{
     render(){
         return (
             <div className="table">
-                <h2>Clue: food you eat</h2>
+                <h2>Clue: {this.props.clue}</h2>
                 {this.createTable()}
             </div>
         )

@@ -8,13 +8,14 @@ import words from './helperFunctions/words';
 
 
 const gameWord = words[Math.floor(Math.random() * words.length)]
-const length = gameWord.length;
+const length = gameWord[0].length;
 class App extends React.Component {
 
   constructor(props){
     super(props);
     this.state = {
-      word: gameWord,
+      word: gameWord[0],
+      clue: gameWord[1],
       chances: 8,
       wrongAnswers: 0,
       correctAnswers: 0,
@@ -52,7 +53,7 @@ class App extends React.Component {
     {!this.state.winner && this.state.wrongAnswers < this.state.chances && <Bomb wrongAnswers={this.state.wrongAnswers} />}
     {this.state.wrongAnswers === this.state.chances && <GameOver/>}
     {this.state.winner && <Winner />}
-    <Table word={this.state.word} checkWinner={this.incrementCorrectAnswers} burnFuse={this.incrementWrongAnswers} />
+    <Table word={this.state.word} clue={this.state.clue} checkWinner={this.incrementCorrectAnswers} burnFuse={this.incrementWrongAnswers} />
     </div>
   );
 }
