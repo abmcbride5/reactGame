@@ -3,7 +3,9 @@ import './css/App.css';
 import Table from './containers/table';
 import Bomb from './containers/bomb';
 import GameOver from './containers/gameOver';
+import Winner from './containers/winner';
 import words from './helperFunctions/words';
+
 
 
 
@@ -15,9 +17,12 @@ class App extends React.Component {
       word: words[Math.floor(Math.random() * words.length)],
       chances: 8,
       wrongAnswers: 0,
+      correctAnswers: 0,
       length: this.state.word.length,
-    }
-    this.incrementWrongAnswers = this.incrementWrongAnswers.bind(this)
+      winner: false
+    };
+    this.incrementWrongAnswers = this.incrementWrongAnswers.bind(this);
+    this.incrementCorrectAnswers = this.incrementCorrectAnswers.bind(this);
   }
  
   incrementWrongAnswers(){
@@ -26,8 +31,17 @@ class App extends React.Component {
     })
     console.log(this.state.wrongAnswers);
   }
+  incrementCorrectAnswers(){
+    this.setState({
+      correctAnswers: this.state.correctAnswers + 1,
+    })
+    if (this.state.correctAnswers === this.state.length){
+      this.setState({
+        winner: true,
+      })
 
-
+    }
+  }
 
   render(){
   return (
@@ -35,7 +49,8 @@ class App extends React.Component {
       <h1>Put Out The Fuse</h1>
     {this.state.wrongAnswers < this.state.chances && <Bomb wrongAnswers={this.state.wrongAnswers} />}
     {this.state.wrongAnswers === this.state.chances && <GameOver/>}
-    <Table word={this.state.word} burnFuse={this.incrementWrongAnswers} />
+    {this.state.winner && <Winner />}
+    <Table word={this.state.word} checkWinner={this.incrementCorrectAnswers} burnFuse={this.incrementWrongAnswers} />
     </div>
   );
 }

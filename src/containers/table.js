@@ -16,7 +16,7 @@ class Table extends React.Component{
         let table = []
         let children = []
         for (let i = 0; i < this.props.word.length; i++){
-            children.push(<td><Letter burnFuse={this.props.burnFuse} letter={this.props.word[i]} /></td>)
+            children.push(<td><Letter checkWinner={this.props.checkWinner} burnFuse={this.props.burnFuse} letter={this.props.word[i]} /></td>)
 
         }
         table.push(<table><tbody><tr>{children}</tr></tbody></table>)

@@ -24,11 +24,11 @@ class Letter extends React.Component{
                 letter: event.target.value,
                 correct: true,    
             })
+            this.props.checkWinner();
             return
         }
         if (!this.state.correct){
             this.props.burnFuse()
-           
         }
     }
     render(){
